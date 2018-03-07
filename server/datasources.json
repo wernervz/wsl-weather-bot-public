@@ -1,0 +1,25 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "mem_db.json"
+  },
+  "watson-conversation": {
+    "name": "watson-conversation",
+    "connector": "rest",
+    "operations": [],
+    "crud": false,
+    "options": {
+      "headers": {
+        "accept": "application/json",
+        "content-type": "application/json"
+      }
+    }
+  },
+  "nlu": {
+    "name": "nlu",
+    "baseURL": "",
+    "crud": false,
+    "connector": "rest"
+  }
+}

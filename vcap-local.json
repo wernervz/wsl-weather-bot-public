@@ -1,0 +1,54 @@
+{
+    "conversation": [{
+        "credentials": {
+            "url": "https://gateway.watsonplatform.net/conversation/api",
+            "username": "a3cb2889-84a7-4da2-bcc0-3c0969264bdf",
+            "password": "gHR4dDZmjWn6"
+        },
+        "syslog_drain_url": null,
+        "label": "conversation",
+        "provider": null,
+        "plan": "standard",
+        "name": "cartridges-Conversation-3",
+        "tags": [
+            "watson",
+            "ibm_created",
+            "ibm_dedicated_public"
+        ]
+    }],
+    "natural-language-understanding": [{
+        "credentials": {
+            "url": "https://gateway.watsonplatform.net/natural-language-understanding/api",
+            "username": "bf3f2422-ba6f-40bb-8b6b-34a65a30d7b0",
+            "password": "MDTCMSzp7JDH"
+        },
+        "syslog_drain_url": null,
+        "label": "natural-language-understanding",
+        "provider": null,
+        "plan": "free",
+        "name": "Natural Language Understanding-g1",
+        "tags": [
+            "watson",
+            "ibm_created"
+        ]
+    }],
+    "weatherinsights": [{
+        "credentials": {
+            "username": "c194d874-bccb-4640-96ba-5ca92721d30a",
+            "password": "L43IC8nOMx",
+            "host": "twcservice.mybluemix.net",
+            "port": 443,
+            "url": "https://c194d874-bccb-4640-96ba-5ca92721d30a:L43IC8nOMx@twcservice.mybluemix.net"
+        },
+        "syslog_drain_url": null,
+        "label": "weatherinsights",
+        "provider": null,
+        "plan": "Free-v2",
+        "name": "Weather Company Data-1h",
+        "tags": [
+            "big_data",
+            "ibm_created",
+            "ibm_dedicated_public"
+        ]
+    }]
+}

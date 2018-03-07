@@ -1,0 +1,12 @@
+{
+  "CONVERSATION_API_URL": {"expr": "cartridges-Conversation-3", "field": "credentials.url", "append": "/v1/workspaces/b81eb864-b141-4492-b2fb-cc4aea24d433/message?version=2017-05-26"},
+  "CONVERSATION_API_USER": {"expr": "cartridges-Conversation-3", "field": "credentials.username"},
+  "CONVERSATION_API_PASSWORD": {"expr": "cartridges-Conversation-3", "field": "credentials.password"},
+  "NATURAL_LANGUAGE_URL": "https://gateway.watsonplatform.net/natural-language-understanding/api",
+  "NATURAL_LANGUAGE_USERNAME": {"expr": "Natural Language Understanding.*", "field": "credentials.username"},
+  "NATURAL_LANGUAGE_PASSWORD": {"expr": "Natural Language Understanding.*", "field": "credentials.password"},
+  "NATURAL_LANGUAGE_VERSION": "2017-02-27",
+  "WEATHER_USERNAME": {"expr": "Weather Company Data.*", "field": "credentials.username"},
+  "WEATHER_PASSWORD": {"expr": "Weather Company Data.*", "field": "credentials.password"},
+  "WEATHER_FX_ACCT_ID": "LPE5I9"
+}
